@@ -7,3 +7,5 @@ export async function buscarUsuario(nome: string) {
   const result = await db.query(query);
   return result;
 }
+
+// Timestamp do ensaio da demo: 2026-10-27
