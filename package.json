@@ -1,0 +1,20 @@
+{
+  "name": "ai-brasil-experience-2026",
+  "version": "1.0.0",
+  "description": "Demonstrador de Agentes Autônomos em DevSecOps - AI.Brasil Experience 2026",
+  "main": "src/services/userService.ts",
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "agent": "node scripts/secops-agent.mjs sarif-results/javascript.sarif"
+  },
+  "keywords": [
+    "devsecops",
+    "gemini",
+    "autonomous-agents",
+    "codeql",
+    "sarif"
+  ],
+  "author": "Thiago Nunes",
+  "license": "MIT"
+}
